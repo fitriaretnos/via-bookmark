@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5009f24f4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rochester&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmarks / Twitter</title>
+  </head>
+  <body>
+    <header>
+      <input
+        type="text"
+        class="search"
+        placeholder="Search Bookmark"
+        style="position: absolute; margin: 0px 0px 20px 20%"
+      />
+      <h1>Bookmarks</h1>
+      <p>@username</p>
+    </header>
+    <h1 id="h1header">
+      <i class="fas fa-chevron-left" id="icon1"></i>Bookmarks
+    </h1>
+    <div class="allcontainer">
+      <div class="container-navbar">
+        <ul class="navbardesktop">
+          <li>
+            <a href="#" title="My Profile"><i class="far fa-user"></i></a>
+          </li>
+          <li>
+            <a href="#" title="Notifications"><i class="far fa-bell"></i></a>
+          </li>
+          <li>
+            <a href="#" title="Direct Message"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" id="active" title="Bookmarks"
+              ><i class="fas fa-bookmark"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" title="Lists"><i class="fas fa-list-ul"></i></a>
+          </li>
+          <li>
+            <a href="#" title="Explore"><i class="fas fa-hashtag"></i></a>
+          </li>
+        </ul>
+        <div class="buttonorder">
+          <button class="order-btn" title="Add Category">
+            <i class="fas fa-plus"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container-box">
+        <h1 style="font-size: 30px" id="sorth1">Category</h1>
+        <div class="sortby">
+          <select>
+            <option>Name</option>
+            <option>Date</option>
+            <option>Type</option>
+            <option>Size</option>
+          </select>
+          <select>
+            <option>Ascending</option>
+            <option>Descending</option>
+          </select>
+        </div>
+        <div class="box">
+          <h3>Belajar</h3>
+          <p>isinya kumpulan tweet yang berguna buat belajar!</p>
+          <button class="btn" id="btn2">Edit</button
+          ><button class="btn" id="btn1">Open</button
+          ><span style="float: right">Total: 81 Tweets</span>
+        </div>
+
+        <div class="box">
+          <h3>Harus ditonton nanti</h3>
+          <p>rekomen film yg ntar harus ditonton</p>
+          <button class="btn" id="btn2">Edit</button
+          ><button class="btn" id="btn2">Open</button
+          ><span style="float: right">Total: 98 Tweets</span>
+        </div>
+
+        <div class="box">
+          <h3>Music</h3>
+          <p>lagunya bagus bagus... buat nanti didengerin :D</p>
+          <button class="btn" id="btn2">Edit</button
+          ><button class="btn" id="btn2">Open</button
+          ><span style="float: right">Total: 107 Tweets</span>
+        </div>
+
+        <div class="box" id="totalbox">
+          <h3>Uncategorized</h3>
+          <p style="color: gray">No Description</p>
+          <button class="btn" id="btn2">Edit</button
+          ><button class="btn" id="btn2">Open</button
+          ><span style="float: right">Total: 1024 Tweets</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
